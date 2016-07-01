@@ -38,16 +38,18 @@
 
 .colorscheme1
 {
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left,rgb(128,195,243), rgb(74,144,226)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right,rgb(128,195,243), rgb(74,144,226)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right,rgb(128,195,243), rgb(74,144,226)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right,rgb(128,195,243), rgb(74,144,226)); /* Standard syntax */
+    background: rgb(74,144,226); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top ,rgb(128,195,243), rgb(74,144,226)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right,rgb(128,195,243), rgb(74,144,226)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,rgb(128,195,243), rgb(74,144,226)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right,rgb(128,195,243), rgb(74,144,226)); /* Standard syntax */
 }
 
 .text
 {
 	text-align: justify;
+	padding-top: 20px ;
+	padding-bottom: 20px ;
 }
 
 .collapser
@@ -65,3 +67,30 @@
 	margin :0px;
 	margin-top: 75px !important;
 	padding: 0px;
+}
+
+.homePage
+{
+	padding: 0px ;
+}
+
+.pads
+{
+	padding-top: 75px ;
+}
+
+.textextra
+{
+	padding-bottom: 69px !important ;
+}
+
+.buttonstyle
+{
+
+}
+
+.btnSpecial
+{
+	background-color: rgb(74,144,226);
+	color : white;
+}
