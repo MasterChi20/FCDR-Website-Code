@@ -1,3 +1,4 @@
+
 .navbarCustom
 {
 	min-height: 75px ;
@@ -6,7 +7,11 @@
 
 .whiteClass
 {
-	background-color: rgb(255,255,255);
+	background: rgb(174,174,174); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top ,rgb(238,238,238), rgb(174,174,174)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right,rgb(238,238,238), rgb(174,174,174)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,rgb(238,238,238), rgb(174,174,174)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right,rgb(238,238,238), rgb(174,174,174)); /* Standard syntax */
 	margin: 0px ;
 	padding: 0px ;
 	min-height: 75px ;
@@ -45,6 +50,15 @@
     background: linear-gradient(to bottom right,rgb(128,195,243), rgb(74,144,226)); /* Standard syntax */
 }
 
+.colorscheme2
+{
+    background: rgb(174,174,174); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top ,rgb(238,238,238), rgb(174,174,174)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right,rgb(238,238,238), rgb(174,174,174)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,rgb(238,238,238), rgb(174,174,174)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right,rgb(238,238,238), rgb(174,174,174)); /* Standard syntax */
+}
+
 .text
 {
 	text-align: justify;
@@ -59,6 +73,8 @@
 	margin-right: 20px ;
 	width: 40px ;
 	height: 40px ;
+	align-items: center ;
+	align-content: center ;
 }
 
 .mainPhoto
@@ -84,13 +100,46 @@
 	padding-bottom: 69px !important ;
 }
 
-.buttonstyle
-{
-
-}
-
 .btnSpecial
 {
 	background-color: rgb(74,144,226);
 	color : white;
+	margin-top: 30px;
+	margin-bottom: 50px ;
 }
+
+.rulesCustom
+{
+	align-items: center ;
+	text-align: center ;
+}
+
+.btnCustom:hover
+{
+	margin-top: 10px ;
+	margin-bottom: 20px ;
+	color: rgb(74,144,226) ;
+	background-color : white ;
+	width : 300px ;
+}
+
+.btnCustom
+{
+	background-color: rgb(128,195,243); 
+	color: rgb(238,238,238);
+	width : 300px ;
+	margin-top: 10px ;
+	margin-bottom: 20px ;
+}
+
+.btnSpecial:hover
+{
+	background-color: white; 
+	color: rgb(74,144,226);
+}
+
+.navigation>li
+{
+	color:rgb(255,255,255);
+}
+
