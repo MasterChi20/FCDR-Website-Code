@@ -1,35 +1,4 @@
-
-.navbarCustom
-{
-	min-height: 75px ;
-	background-color: rgb(255,255,255);
-}
-
-.whiteClass
-{
-	background-color: white ;
-	margin: 0px ;
-	padding: 0px ;
-	min-height: 75px ;
-}
-
-.navbarLogo
-{
-	height: 65px ;
-	margin: 5px ;
-	padding: 0px ;
-}
-
-.imageNav>li>a
-{
-	padding: 0px ;
-	margin: 0px ;
-}
-
-.navigation
-{
-	margin-top: 12px ;
-}
+/* These are all classes related to the entire website*/
 
 .headings
 {
@@ -55,14 +24,62 @@
     background: linear-gradient(to bottom right,rgb(238,238,238), rgb(174,174,174)); /* Standard syntax */
 }
 
-.text
+.pads
 {
-	text-align: justify;
-	padding-top: 20px ;
-	padding-bottom: 20px ;
+	padding-top: 75px ;
 }
 
-.collapser
+.headingStyle2
+{
+	color: black;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* These are all classes related to the navbar*/
+.sec1navbarCustom
+{
+	min-height: 75px ;
+	background-color: rgb(255,255,255);
+}
+
+.sec1whiteClass
+{
+	background-color: white ;
+	margin: 0px ;
+	padding: 0px ;
+	min-height: 75px ;
+}
+
+.sec1imageNav>li>a
+{
+	padding: 0px ;
+	margin: 0px ;
+}
+
+.sec1navbarLogo
+{
+	height: 65px ;
+	margin: 5px ;
+	padding: 0px ;
+}
+
+.sec1navigation
+{
+	margin-top: 12px ;
+}
+
+.sec1collapser
 {
 	margin: 0px;
 	margin-top: -65px ;
@@ -73,7 +90,34 @@
 	align-content: center ;
 }
 
-.mainPhoto
+.sec1navigation>li
+{
+	color:rgb(255,255,255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* These are all classes related to the home page*/
+
+.sec2homePage
+{
+	padding: 0px ;
+}
+
+.sec2mainPhoto
 {
 	width:100%;
 	margin :0px;
@@ -81,108 +125,228 @@
 	padding: 0px;
 }
 
-.homePage
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* These are all classes related to the about us page*/
+
+.sec2text
 {
-	padding: 0px ;
+	text-align: justify;
+	padding-top: 20px ;
+	padding-bottom: 69px ;
 }
 
-.pads
+
+
+
+
+
+
+
+
+
+
+
+/* These are all classes related to the vision page*/
+
+
+.sec3text
 {
-	padding-top: 75px ;
+	text-align: justify;
+	padding-top: 20px ;
+	padding-bottom: 20px ;
 }
 
-.textextra
-{
-	padding-bottom: 69px !important ;
-}
 
-.btnSpecial
-{
-	background-color: rgb(74,144,226);
-	color : white;
-	margin-top: 30px;
-	margin-bottom: 50px ;
-}
 
-.rulesCustom
-{
-	align-items: center ;
-	text-align: center ;
-}
 
-.btnCustom:hover
-{
-	margin-top: 10px ;
-	margin-bottom: 20px ;
-	color: rgb(74,144,226) ;
-	background-color : white ;
-	width : 300px ;
-}
 
-.btnCustom
-{
-	background-color: rgb(128,195,243); 
-	color: rgb(238,238,238);
-	width : 300px ;
-	margin-top: 10px ;
-	margin-bottom: 20px ;
-	border-radius: 30px ; 
-}
 
-.btnSpecial:hover
-{
-	background-color: white; 
-	color: rgb(74,144,226);
-}
 
-.navigation>li
-{
-	color:rgb(255,255,255);
-}
 
-.people
+
+
+
+/* These are all classes related to the panel of mediators page*/
+
+.sec4people
 {
 	height : 100px;
 	width: 100px ;
-
 }
 
-.description
-{
-	text-align: justify;
-}
-
-.people-left
+.sec4people-left
 {
 	align-self: left;
 }
 
-.people-right
+.sec4people-right
 {
 	align-self: right ;
 }
 
-.headingStyle2
-{
-	color: black;
-	text-align: center;
-}
-
-.readabout
+.sec4readabout
 {
 	margin: 20px ;
 	background-color: rgb(74,144,226);
 	color : white;
+	border-radius: 30px ;
 }
 
-.readabout:hover
+.sec4readabout:hover
 {
 	background-color : rgb(128,195,243);
 	color : white;
 }
 
-.custom
+
+.sec4description
+{
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* These are all classes related to the rules of mediation page*/
+
+
+.sec5rulesCustom
+{
+	align-items: center ;
+	text-align: center ;
+}
+
+.sec5btnSpecial
+{
+	background-color: rgb(74,144,226);
+	color : white;
+	margin-top: 30px;
+	margin-bottom: 50px ;
+	border-radius: 30px ;
+}
+
+.sec5btnSpecial:hover
+{
+	background-color: white; 
+	color: rgb(74,144,226);
+}
+
+.sec5btnCustom
+{
+	background-color: rgb(128,195,243); 
+	color: rgb(238,238,238);
+	width : 280px ;
+	margin-top: 10px ;
+	margin-bottom: 20px ;
+	margin-left: 10px ;
+	margin-right: 10px ;
+}
+
+.sec5btnCustom:hover
+{
+	margin-top: 10px ;
+	margin-bottom: 20px ;
+	color: rgb(74,144,226) ;
+	background-color : white ;
+	width : 280px ;
+}
+
+.sec5custom
 {
 	margin: 0px ;
 	padding: 0px;
 }
+
+.sec5text
+{
+	text-align: justify;
+	padding-top: 20px ;
+	padding-bottom: 69px ;
+}
+
+
+
+
+
+
+
+/* These are all classes related to the faqs page*/
+
+
+
+
+.sec6faqSection
+{
+	padding: 0px ;
+	padding-top: 75px ;
+	align-items: center;
+	text-align: center;
+}
+
+.sec6btnSpecial
+{
+	background-color: rgb(74,144,226);
+	color : white;
+	margin-top: 30px;
+	margin-bottom: 50px ;
+	border-radius: 30px ;
+}
+
+.sec6btnSpecial:hover
+{
+	background-color: white; 
+	color: rgb(74,144,226);
+}
+
+.sec6btnCustom
+{
+	background-color: rgb(128,195,243); 
+	color: rgb(238,238,238);
+	width : 280px ;
+	margin-top: 10px ;
+	margin-bottom: 20px ;
+	margin-left: 10px ;
+	margin-right: 10px ;
+	padding: 10px ;
+}
+
+.sec6btnCustom:hover
+{
+	margin-top: 10px ;
+	margin-bottom: 20px ;
+	color: rgb(74,144,226) ;
+	background-color : white ;
+	width : 280px ;
+}
+
+.sec6text
+{
+	text-align: justify;
+	padding-top: 20px ;
+	padding-bottom: 69px ;
+}
+}
+
+/* These are all classes related to the contact us page*/
