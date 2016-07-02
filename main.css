@@ -7,11 +7,7 @@
 
 .whiteClass
 {
-	background: rgb(174,174,174); /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left top ,rgb(238,238,238), rgb(174,174,174)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right,rgb(238,238,238), rgb(174,174,174)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right,rgb(238,238,238), rgb(174,174,174)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right,rgb(238,238,238), rgb(174,174,174)); /* Standard syntax */
+	background-color: white ;
 	margin: 0px ;
 	padding: 0px ;
 	min-height: 75px ;
@@ -130,6 +126,7 @@
 	width : 300px ;
 	margin-top: 10px ;
 	margin-bottom: 20px ;
+	border-radius: 30px ; 
 }
 
 .btnSpecial:hover
@@ -143,3 +140,49 @@
 	color:rgb(255,255,255);
 }
 
+.people
+{
+	height : 100px;
+	width: 100px ;
+
+}
+
+.description
+{
+	text-align: justify;
+}
+
+.people-left
+{
+	align-self: left;
+}
+
+.people-right
+{
+	align-self: right ;
+}
+
+.headingStyle2
+{
+	color: black;
+	text-align: center;
+}
+
+.readabout
+{
+	margin: 20px ;
+	background-color: rgb(74,144,226);
+	color : white;
+}
+
+.readabout:hover
+{
+	background-color : rgb(128,195,243);
+	color : white;
+}
+
+.custom
+{
+	margin: 0px ;
+	padding: 0px;
+}
