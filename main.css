@@ -24,6 +24,11 @@
     background: linear-gradient(to bottom right,rgb(238,238,238), rgb(174,174,174)); /* Standard syntax */
 }
 
+.colorscheme3
+{
+	background-color: rgb(51,51,51);
+}
+
 .pads
 {
 	padding-top: 75px ;
@@ -206,8 +211,8 @@
 
 .sec4readabout:hover
 {
-	background-color : rgb(128,195,243);
-	color : white;
+	background-color : rgb(238,238,238);
+	color :rgb(74,144,226) ;
 }
 
 
@@ -347,6 +352,33 @@
 	padding-top: 20px ;
 	padding-bottom: 69px ;
 }
-}
+
 
 /* These are all classes related to the contact us page*/
+.sec7headings
+{
+	color: white;
+	text-align: left;
+}
+
+.sec7headings-right
+{
+	color: white;
+	text-align: right;
+}
+/* These are all classes related to the footer*/
+
+.sec8container
+{
+	height : 30px ;
+
+}
+
+.sec8text
+{
+	height : 30px ;
+	margin-top:12px ;
+	color:rgb(255,255,255);
+	text-align: center ;
+}
+
