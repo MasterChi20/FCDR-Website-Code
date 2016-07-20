@@ -15,7 +15,6 @@
 
             <link rel="stylesheet" type="text/css" href="main.css">
             
-            <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
             <title>
                 Foundation for Comprehensive Dispute Resolution
             </title>
@@ -137,7 +136,8 @@
                             To Reach | To Listen | To Resolve
                         </h4>
 
-                        <p class = "sec3text"> We believe it is a mark of an evolved society when people are empowered and able to resolve their own problems and are responsible for their own decisions. In the context of an evolving society, our mission at FCDR is:  <br> » To mainstream mediation as the method of dispute resolution and enable a litigation free resolution of disputes.  <br> » To help parties to determine solutions to their issues.  <br> » To include relationships and emotions in the settlement process and the resolution.  <br> » To broaden the role of lawyers as problem solvers. </p> <br>
+                        <p class = "sec3text"> We believe it is a mark of an evolved society when people are empowered and able to resolve their own problems and are responsible for their own decisions. In the context of an evolving society, our mission at FCDR is:  <br> » To mainstream mediation as the method of dispute resolution and enable a litigation free resolution of disputes.  <br> » To help parties to determine solutions to their issues.  <br> » To include relationships and emotions in the settlement process and the resolution.  <br> » To broaden the role of lawyers as problem solvers. </p> 
+
                     </div>
 
                 </div>
