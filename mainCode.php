@@ -1,102 +1,103 @@
 <!DOCTYPE HTML>
-	<html>
-		<head>
-			
-			<meta charset = "utf-8" />
-			
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<!-- Latest compiled and minified CSS -->
-			
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <html>
+        <head>
+            
+            <meta charset = "utf-8" />
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- Latest compiled and minified CSS -->
+            
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-			<!-- Optional theme -->
-			
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+            <!-- Optional theme -->
+            
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-			<link rel="stylesheet" type="text/css" href="main.css">
-			
-			<title>
-				Foundation for Comprehensive Dispute Resolution
-			</title>
-		</head>
+            <link rel="stylesheet" type="text/css" href="main.css">
+            
+            <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+            <title>
+                Foundation for Comprehensive Dispute Resolution
+            </title>
+        </head>
 
-		<body>
+        <body>
 
-			<!-- Code Area Starts -->
-
-
-
-
-			<!-- Navbar Code -->
-
-			<nav class="navbar navbar-default navbar-fixed-top sec1navbarCustom">
-
- 			    <div class="container-fluid sec1whiteClass">
- 					<div class = "container">
-    					<ul class = "nav navbar-nav navbar-left sec1imageNav">
-
-							<li>
-								<a href="#home">
-									<img src="logoPlainBack.png" class = "sec1navbarLogo"/>
-								</a>
-							</li>
-
-						</ul>
-
-						<div class="navbar-header">
-     						<button type="button" class="navbar-toggle sec1collapser" data-toggle="collapse" data-target="#myNavbar">
-       							<span class="icon-bar"></span>
-       							<span class="icon-bar"></span>
-       							<span class="icon-bar"></span> 
-      						</button>
-      					</div>
-
-      					<div class = "collapse navbar-collapse" id = "myNavbar">
-      						
-      					
-      					<ul class = "nav navbar-nav navbar-right sec1navigation" >
+            <!-- Code Area Starts -->
 
 
-      						<li>	
-        						<a href="#about" >
-        							About Us
-        						</a>
-        					</li>
 
-        					<li>	
-        						<a href="#vision"  >
-        							Vision
-        						</a>
-        					</li>
-          				
-          					<li>	
-        						<a href="#panel"  >
-        							Panel Of Mediators
-        						</a>
-        					</li>
 
-        					<li>	
-        						<a href="#rules"  >
-        							Rules of Mediation
-        						</a>
-        					</li>
+            <!-- Navbar Code -->
 
-        					<li>	
-        						<a href="#faq"  >
-        							FAQ's
-        						</a>
-        					</li>
-        					<li>	
-        						<a href="#contact"  >
-        							Contact Us
-        						</a>
-        					</li>
+            <nav class="navbar navbar-default navbar-fixed-top sec1navbarCustom">
 
-						</ul>
-  					</div>
-  					</div>
-  				</div>
-          	</nav>
+                <div class="container-fluid sec1whiteClass">
+                    <div class = "container">
+                        <ul class = "nav navbar-nav navbar-left sec1imageNav">
+
+                            <li>
+                                <a href="#home">
+                                    <img src="logoPlainBack.png" class = "sec1navbarLogo"/>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle sec1collapser" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span> 
+                            </button>
+                        </div>
+
+                        <div class = "collapse navbar-collapse" id = "myNavbar">
+                            
+                        
+                        <ul class = "nav navbar-nav navbar-right sec1navigation" >
+
+
+                            <li>    
+                                <a href="#about" >
+                                    About Us
+                                </a>
+                            </li>
+
+                            <li>    
+                                <a href="#vision"  >
+                                    Vision
+                                </a>
+                            </li>
+                        
+                            <li>    
+                                <a href="#panel"  >
+                                    Panel Of Mediators
+                                </a>
+                            </li>
+
+                            <li>    
+                                <a href="#rules"  >
+                                    Rules of Mediation
+                                </a>
+                            </li>
+
+                            <li>    
+                                <a href="#faq"  >
+                                    FAQ's
+                                </a>
+                            </li>
+                            <li>    
+                                <a href="#contact"  >
+                                    Contact Us
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </nav>
 
 
 
@@ -104,28 +105,28 @@
             <!-- Home Page Section -->
 
 
-			<div class = "container-fluid sec2homePage" >
-				<div class = "row">
-					<div class = "col-xs-12 " id = "home">
-						<img src="frontPage.png" class = "img-responsive sec2mainPhoto" />
-					</div>
-				</div>
-			</div>
+            <div class = "container-fluid sec2homePage" >
+                <div class = "row">
+                    <div class = "col-xs-12 " id = "home">
+                        <img src="frontPage.png" class = "img-responsive sec2mainPhoto" />
+                    </div>
+                </div>
+            </div>
 
 
             <!-- The About Us and Vision section -->
 
-			<div class = "container-fluid ">
-				<div class = "row">
-					<div class = "col-xs-12 col-lg-6 colorscheme1 pads " id = "about">
-						<h3 class = "headings">
-							-About Us-
-						</h3>
+            <div class = "container-fluid ">
+                <div class = "row">
+                    <div class = "col-xs-12 col-lg-6 colorscheme1 pads " id = "about">
+                        <h3 class = "headings">
+                            -About Us-
+                        </h3>
 
-						<p class = "sec2text sec2textextra">
-							FCDR is an endeavour to promote mediation as a dispute resolution mechanism, with the vision of empowering parties to take on the responsibility of resolving their disputes. We believe that a substantial number and variety of cases can be settled by parties, through discussions in understanding why the dispute arose, conveying and listening to each other’s perspectives to the disagreement and looking at convergence of interests where the dispute can be resolved. Workplace disputes, family and matrimonial disputes, shareholder disputes, employment disputes, association disputes, etc. are all amenable to resolution through mediation.
-						</p>
-					</div>
+                        <p class = "sec2text sec2textextra">
+                            FCDR is an endeavour to promote mediation as a dispute resolution mechanism, with the vision of empowering parties to take on the responsibility of resolving their disputes. We believe that a substantial number and variety of cases can be settled by parties, through discussions in understanding why the dispute arose, conveying and listening to each other’s perspectives to the disagreement and looking at convergence of interests where the dispute can be resolved. Workplace disputes, family and matrimonial disputes, shareholder disputes, employment disputes, association disputes, etc. are all amenable to resolution through mediation.
+                        </p>
+                    </div>
 
 
                     <div class = "col-xs-12 col-lg-6 colorscheme1 pads" id = "vision">
@@ -136,12 +137,11 @@
                             To Reach | To Listen | To Resolve
                         </h4>
 
-                        <p class = "sec3text"> We believe it is a mark of an evolved society when people are empowered and able to resolve their own problems and are responsible for their own decisions. In the context of an evolving society, our mission at FCDR is:  <br> » To mainstream mediation as the method of dispute resolution and enable a litigation free resolution of disputes.  <br> » To help parties to determine solutions to their issues.  <br> » To include relationships and emotions in the settlement process and the resolution.  <br> » To broaden the role of lawyers as problem solvers. </p> 
-
+                        <p class = "sec3text"> We believe it is a mark of an evolved society when people are empowered and able to resolve their own problems and are responsible for their own decisions. In the context of an evolving society, our mission at FCDR is:  <br> » To mainstream mediation as the method of dispute resolution and enable a litigation free resolution of disputes.  <br> » To help parties to determine solutions to their issues.  <br> » To include relationships and emotions in the settlement process and the resolution.  <br> » To broaden the role of lawyers as problem solvers. </p> <br>
                     </div>
 
-				</div>
-			</div>
+                </div>
+            </div>
 
 
 
@@ -941,12 +941,12 @@
                 </div>
             </div>
 
-			<!-- Code Area Ends -->
+            <!-- Code Area Ends -->
 
-			<!-- Latest compiled and minified JQuery -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+            <!-- Latest compiled and minified JQuery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
-			<!-- Latest compiled and minified JavaScript -->
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		</body>
-	</html>
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        </body>
+    </html>
